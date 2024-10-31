@@ -14,6 +14,12 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
 
+// target Java 21
+java {
+    sourceCompatibility = '21'
+    targetCompatibility = '21'
+}
+
 test {
     useJUnitPlatform()
 }
